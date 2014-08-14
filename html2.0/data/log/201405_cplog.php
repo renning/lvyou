@@ -1,0 +1,13 @@
+<?PHP exit;?>	1400943673	admin	1	127.0.0.1		GET={}; POST={};
+<?PHP exit;?>	1400943673	admin	1	127.0.0.1	index	GET={}; POST={};
+<?PHP exit;?>	1400943683	admin	1	127.0.0.1	portalcategory	GET={}; POST={};
+<?PHP exit;?>	1400943697	admin	1	127.0.0.1	portalcategory	GET={}; POST={};
+<?PHP exit;?>	1400943700	admin	1	127.0.0.1	portalcategory	GET={operation=add; upid=0; }; POST={};
+<?PHP exit;?>	1400943750	admin	1	127.0.0.1	portalcategory	GET={operation=add; upid=0; scrolltop=; anchor=; catname=回龙观; displayorder=0; foldername=hui; url=; perpage=15; maxpages=1000; listprimaltplname=list_index; viewprimaltplname=; allowpublish=1; notshowarticlesummay=1; allowcomment=0; closed=0; shownav=0; setindex=0; seotitle=; keyword=; description=; detailsubmit=提交; level=0; }; POST={scrolltop=; anchor=; catname=回龙观; displayorder=0; foldername=hui; url=; perpage=15; maxpages=1000; listprimaltplname=list_index; viewprimaltplname=; allowpublish=1; notshowarticlesummay=1; allowcomment=0; closed=0; shownav=0; setindex=0; seotitle=; keyword=; description=; detailsubmit=提交; level=0; };
+<?PHP exit;?>	1400943760	admin	1	127.0.0.1	portalcategory	GET={}; POST={};
+<?PHP exit;?>	1400943854	admin	1	127.0.0.1	portalcategory	GET={scrolltop=; anchor=; neworder={1=0; }; name={1=回龙观; }; editsubmit=提交; }; POST={scrolltop=; anchor=; neworder={1=0; }; name={1=回龙观; }; editsubmit=提交; };
+<?PHP exit;?>	1400943863	admin	1	127.0.0.1	portalcategory	GET={}; POST={};
+<?PHP exit;?>	1401351423	admin	1	127.0.0.1		GET={}; POST={};
+<?PHP exit;?>	1401351423	admin	1	127.0.0.1	index	GET={}; POST={};
+<?PHP exit;?>	1401351428	admin	1	127.0.0.1	founder	GET={operation=perm; }; POST={};
+<?PHP exit;?>	1401351431	admin	1	127.0.0.1	index	GET={}; POST={};

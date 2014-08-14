@@ -1,0 +1,126 @@
+/*
+Theme Name: Newsprint
+Theme URI: http://felix.plesoianu.ro/index.php/page:Webdesign:Newsprint%20Template
+Description: Minimal black-and-white theme, mostly shaped by whitespace; no graphics. Customizable sidebar and navigation menu.
+Author: Felix Pleșoianu
+Author URI: http://felix.plesoianu.ro/
+License: MIT
+License URI: http://opensource.org/licenses/mit-license
+Version: 2012.05.05
+Tags: black, white, two-columns, left-sidebar, fixed-width, custom-menu
+*/
+
+body {
+	Font-family: sans-serif;
+	Margin: 0;
+	Padding: 0;
+}
+
+h1 {
+	Font-size: 3em;
+	Text-align: left;
+	Margin: 0.5ex 1ex;
+	Letter-spacing: -0.1em;
+	Text-shadow: 3px 3px 3px #cccccc;
+	Border-bottom: 3px solid black;
+}
+
+.header small {
+	Margin: 0 4ex; Float: left;
+}
+
+.nav {
+	Margin: 0.5em 1em;
+	Height: 2em;
+}
+
+.nav ul {
+	List-style: none;
+	Margin: 0;
+	Padding: 0;
+	Float: right;
+}
+
+.nav ul li {
+	Float: left;
+	Margin: 0.25em;
+	Padding: 0.25em;
+}
+
+.nav ul li.current_page_item { Border-bottom: 2px solid black; }
+
+.nav ul li a {
+	Text-decoration: none;
+	Color: #0000ff;
+	Display: block;
+}
+
+.section {
+	Width: 60em;
+	Margin: 0 auto;
+}
+
+.article-layout { Width: 45em; }
+.sidebar-layout { Width: 15em; }
+.article-layout, .sidebar-layout { Float: right; }
+
+h2 {
+	Font-size: 1.5m;
+	Text-align: left;
+	Font-weight: normal;
+
+	Letter-spacing: -0.1em;
+	Text-shadow: 2px 2px 2px #cccccc;
+	Border-bottom: 2px solid black;
+}
+
+#sidebar, .content-box {
+	Margin: 1em;
+	Padding: 1em;
+	Font-size: 0.9em;
+}
+
+.half-box { Float: left; Width: 50%; }
+img.icon { Display: block; Margin: 0 auto; }
+img.illustration { Float: left; Margin: 0.5em; }
+a img { Border: none; }
+.lastmod { Clear: both; }
+
+h3 {
+	Margin-top: 0;
+	Font-size: 1.1m;
+	Text-align: left;
+	Font-weight: normal;
+	Clear: both;
+}
+
+.guard { Height: 0; Clear: both; }
+
+.footer {
+	Margin: 1.5em;
+	Padding: 0.5em;
+	Text-align: center;
+	Border-top: 3px solid black;
+}
+
+.sidebar-layout > ul {
+	List-style: none;
+	Margin: 0;
+	Padding: 0;
+	Margin-right: 1.5em;
+}
+
+.article-meta, .lastmod { Font-size: 0.9em; }
+.comment-box { Margin: 1em; Font-size: 0.9em; }
+.posts-nav-link, .paginate-comment-links { Text-align: center; }
+
+
+/* WordPress-mandated classes */
+.alignleft { Float: left; }
+.alignright { Float: right; }
+.aligncenter { Display: block; Margin-left: auto; Margin-right: auto; }
+.wp-caption { }
+.wp-caption-text { }
+.gallery-caption { }
+.sticky { }
+.bypostauthor { }
